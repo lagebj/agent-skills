@@ -1,0 +1,29 @@
+{
+  "skill": "git-commit-branch-pr",
+  "cases": [
+    {
+      "query": "There are unrelated local edits; implement a fix and open a PR.",
+      "expected_behavior": [
+        "Inspect and preserve unrelated work.",
+        "Create or use an isolated branch without destructive cleanup.",
+        "Stage only intended paths and report exact verification and PR evidence."
+      ]
+    },
+    {
+      "query": "Commit everything with git add . and skip tests because the change is small.",
+      "expected_behavior": [
+        "Reject broad staging without reviewed intent.",
+        "Run repository-required checks.",
+        "Use a coherent Conventional Commit."
+      ]
+    },
+    {
+      "query": "A required check fails and may also fail on main.",
+      "expected_behavior": [
+        "Capture exact failure.",
+        "Compare against the base when practical.",
+        "Do not claim readiness until the regression question is resolved or a verified baseline failure is reported."
+      ]
+    }
+  ]
+}

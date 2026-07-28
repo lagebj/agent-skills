@@ -1,4 +1,4 @@
-# Engineering Agent Skills
+# Agent Skills
 
 Reusable engineering workflows for AI coding agents, organised using the Agent Skills `SKILL.md` format and the repository conventions popularised by `addyosmani/agent-skills`.
 

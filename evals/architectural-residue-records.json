@@ -1,0 +1,29 @@
+{
+  "skill": "architectural-residue-records",
+  "cases": [
+    {
+      "query": "Two routes implement the same match-completion rules differently.",
+      "expected_behavior": [
+        "Classify as architectural residue.",
+        "Record concrete evidence and containment.",
+        "Define objective resolution criteria around one owning implementation and adapters."
+      ]
+    },
+    {
+      "query": "A button has inconsistent spacing.",
+      "expected_behavior": [
+        "Do not create an ARR.",
+        "Treat it as a local UI issue.",
+        "Avoid broad technical-debt records."
+      ]
+    },
+    {
+      "query": "A confirmed ARR was misunderstood and actually covers three separate mismatches.",
+      "expected_behavior": [
+        "Supersede rather than rewrite the confirmed record.",
+        "Create precise successor records.",
+        "Link supersession both ways."
+      ]
+    }
+  ]
+}

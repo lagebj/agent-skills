@@ -1,0 +1,29 @@
+{
+  "skill": "using-agent-skills",
+  "cases": [
+    {
+      "query": "Implement a new multi-tenant export endpoint and open a PR.",
+      "expected_behavior": [
+        "Select git delivery, application security, and ADR governance when durable boundaries are introduced.",
+        "Apply skills in lifecycle order.",
+        "Do not collapse security or architecture records into the PR workflow."
+      ]
+    },
+    {
+      "query": "We have two active player-position representations and need to remove one.",
+      "expected_behavior": [
+        "Select architectural-residue-records.",
+        "Select ADR governance only if the authoritative representation is undecided.",
+        "Use git delivery for repository changes."
+      ]
+    },
+    {
+      "query": "Correct a typo in a README and commit it.",
+      "expected_behavior": [
+        "Select git delivery.",
+        "Do not create ADR, ARR, or security records without triggers.",
+        "Run repository-required documentation checks."
+      ]
+    }
+  ]
+}

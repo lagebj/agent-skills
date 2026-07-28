@@ -1,0 +1,29 @@
+{
+  "skill": "adr-governance",
+  "cases": [
+    {
+      "query": "Replace the application database with a different strategic database.",
+      "expected_behavior": [
+        "Search existing ADRs first.",
+        "Create or supersede an ADR rather than rewriting history.",
+        "Address migration, compatibility, operations, rollback, and security."
+      ]
+    },
+    {
+      "query": "Upgrade a patch version of an accepted framework.",
+      "expected_behavior": [
+        "Classify as no new ADR unless the upgrade changes durable architecture.",
+        "Follow existing dependency strategy.",
+        "Do not create ceremonial records."
+      ]
+    },
+    {
+      "query": "An accepted ADR says separate services, but the team now wants one shared command.",
+      "expected_behavior": [
+        "Create a new superseding ADR.",
+        "Link supersession bidirectionally.",
+        "Preserve the old decision as historical truth."
+      ]
+    }
+  ]
+}

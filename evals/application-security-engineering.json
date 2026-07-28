@@ -1,0 +1,29 @@
+{
+  "skill": "application-security-engineering",
+  "cases": [
+    {
+      "query": "Add an API that updates another user\u2019s resource by ID.",
+      "expected_behavior": [
+        "Separate authentication from authorisation.",
+        "Verify ownership server-side and deny by default.",
+        "Add unauthorised and cross-tenant negative tests."
+      ]
+    },
+    {
+      "query": "Allow users to enter a webhook URL.",
+      "expected_behavior": [
+        "Model outbound-request threats.",
+        "Allowlist protocols and destinations and block private or metadata networks.",
+        "Test redirects, replay, malformed input, and failure paths."
+      ]
+    },
+    {
+      "query": "Enable a provider-side security header that cannot be changed in code.",
+      "expected_behavior": [
+        "Verify current provider state.",
+        "Automate only through safe authenticated tooling or create an exact provider action.",
+        "Never claim completion without evidence."
+      ]
+    }
+  ]
+}
