@@ -1,5 +1,5 @@
 {
-  "skill": "git-commit-branch-pr",
+  "skill": "git-branch-commit-pr",
   "cases": [
     {
       "query": "There are unrelated local edits; implement a fix and open a PR.",

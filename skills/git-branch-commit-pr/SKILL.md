@@ -1,5 +1,5 @@
 ---
-name: git-commit-branch-pr
+name: git-branch-commit-pr
 description: Safely carries repository work from branch creation through intentional staging, required verification, Conventional Commits, push, and GitHub pull-request creation. Use when modifying a Git repository, or when the user asks to branch, commit, push, open a PR, prepare changes for review, or complete repository delivery.
 license: MIT
 compatibility: Agent Skills standard; requires Git and uses GitHub CLI when GitHub pull-request creation is requested.

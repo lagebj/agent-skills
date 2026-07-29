@@ -19,7 +19,7 @@ Use this dispatcher to select every applicable skill before implementation.
 | Durable architectural direction, boundaries, strategic dependencies, migration strategy, accepted risk, or an existing ADR | `adr-governance` |
 | Current implementation conflicts with intended architecture, multiple sources of truth, duplicated domain behaviour, active legacy paths, or an existing ARR | `architectural-residue-records` |
 | Authentication, authorisation, tenancy, APIs, data, secrets, browser controls, integrations, dependencies, provider controls, or security findings | `application-security-engineering` |
-| Any repository work intended for branch, commit, push, or pull request | `git-commit-branch-pr` |
+| Any repository work intended for branch, commit, push, or pull request | `git-branch-commit-pr` |
 
 ## Composition rules
 
@@ -38,23 +38,23 @@ Do not force one skill to absorb another's record type.
 
 ### Architecture-affecting feature
 
-1. `git-commit-branch-pr` to inspect state and create the branch.
+1. `git-branch-commit-pr` to inspect state and create the branch.
 2. `adr-governance` to discover or record the governing decision.
 3. `application-security-engineering` when security boundaries are affected.
 4. Implement and verify.
-5. `git-commit-branch-pr` to review, commit, push, and open the PR.
+5. `git-branch-commit-pr` to review, commit, push, and open the PR.
 
 ### Resolving architectural residue
 
-1. `git-commit-branch-pr` to isolate the work.
+1. `git-branch-commit-pr` to isolate the work.
 2. `architectural-residue-records` to read containment and resolution criteria.
 3. `adr-governance` only when a new direction or accepted deferral is required.
 4. `application-security-engineering` when the residue affects trust, data, identity, or operations.
-5. Implement, prove criteria, update records, and ship through `git-commit-branch-pr`.
+5. Implement, prove criteria, update records, and ship through `git-branch-commit-pr`.
 
 ### Security hardening
 
-1. `git-commit-branch-pr` to isolate the work.
+1. `git-branch-commit-pr` to isolate the work.
 2. `application-security-engineering` to model threats and controls.
 3. `adr-governance` for durable security architecture or accepted risk.
 4. `architectural-residue-records` when an existing structural mismatch remains.

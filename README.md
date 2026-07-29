@@ -10,7 +10,7 @@ The repository contains five skills:
 | `adr-governance` | Governs architectural decisions and ADR lifecycle. |
 | `architectural-residue-records` | Records and resolves mismatches between intended architecture and implementation. |
 | `application-security-engineering` | Applies proportionate application-security engineering across code and provider boundaries. |
-| `git-commit-branch-pr` | Safely carries repository work from branch creation to a verified GitHub pull request. |
+| `git-branch-commit-pr` | Safely carries repository work from branch creation to a verified GitHub pull request. |
 
 ## Repository structure
 

@@ -2,7 +2,7 @@
 
 ## Add or change a skill
 
-1. Create a branch using `git-commit-branch-pr`.
+1. Create a branch using `git-branch-commit-pr`.
 2. Search existing skills to avoid overlapping ownership.
 3. Create or edit `skills/<name>/` only.
 4. Keep the main workflow under 500 lines and use direct references for detail.

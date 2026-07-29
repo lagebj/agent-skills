@@ -8,7 +8,7 @@ For every repository task:
 
 1. Load `using-agent-skills`.
 2. Invoke every matching domain skill.
-3. Use `git-commit-branch-pr` for any change intended for commit or pull request.
+3. Use `git-branch-commit-pr` for any change intended for commit or pull request.
 4. Complete each invoked skill's verification checklist before reporting completion.
 
 ## Repository rules
@@ -41,4 +41,4 @@ Review the complete Git diff before committing. Confirm that no archive artifact
 - `adr-governance`: architecture decision governance.
 - `architectural-residue-records`: architectural mismatch lifecycle.
 - `application-security-engineering`: secure application and provider changes.
-- `git-commit-branch-pr`: branch, commit, push, and PR delivery.
+- `git-branch-commit-pr`: branch, commit, push, and PR delivery.

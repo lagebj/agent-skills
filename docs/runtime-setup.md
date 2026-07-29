@@ -49,7 +49,7 @@ Install one or more skills:
 ```bash
 ./scripts/install.sh --runtime portable --scope user \
   --skill adr-governance \
-  --skill git-commit-branch-pr
+  --skill git-branch-commit-pr
 ```
 
 ## OpenCode
